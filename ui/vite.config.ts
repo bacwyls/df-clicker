@@ -43,8 +43,8 @@ export default defineConfig({
   build: {
     manifest: true,
     rollupOptions: {
-      external: ['/our.js', 'react-router-dom']
-      // external: ['/our.js']
+      // external: ['/our.js', 'react-router-dom']
+      external: ['/our.js']
     }
   },
   server: {
@@ -86,5 +86,8 @@ export default defineConfig({
       //   },
       // },
     }
-  }
+  },
+  // optimizeDeps: {
+  //   exclude: ['react', 'react-dom', 'react/jsx-dev-runtime'],
+  // },
 });
