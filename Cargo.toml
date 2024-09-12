@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "df_clicker",
+]
+
+[profile.release]
+panic = "abort"
+opt-level = "s"
+lto = true
