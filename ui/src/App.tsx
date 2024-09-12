@@ -2,16 +2,16 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NoServiceView, HalfChat } from '@dartfrog/puddle';
 import { PROCESS_NAME, WEBSOCKET_URL } from "./utils";
-import usePageStore from "./store/page";
-import PagePluginBox from "./components/PagePluginBox";
+import useClickerStore from "./store/clicker";
+import ClickerPluginBox from "./components/ClickerPluginBox";
 
 function App() {
 
-  const {page, setPage} = usePageStore();
+  const {handleUpdate} = useClickerStore();
 
   const onServiceMessage = (msg) => {
-    if (msg.Page) {
-      setPage(msg.Page.Page);
+    if (msg.Clicker) {
+      handleUpdate(msg.Clicker);
     }
   };
 
@@ -24,7 +24,7 @@ function App() {
         <Route path="/df/service/:id" element={
           <HalfChat
             ourNode={window.our?.node}
-            Element={PagePluginBox}
+            Element={ClickerPluginBox}
             processName={PROCESS_NAME}
             websocketUrl={WEBSOCKET_URL}
             onServiceMessage={onServiceMessage}

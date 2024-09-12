@@ -44,6 +44,7 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       external: ['/our.js', 'react-router-dom']
+      // external: ['/our.js']
     }
   },
   server: {
