@@ -3,6 +3,8 @@ use kinode_process_lib::{call_init, http, Address, Request};
 use serde::{Serialize, Deserialize};
 use std::collections::HashMap;
 
+mod constants;
+
 wit_bindgen::generate!({
     path: "target/wit",
     world: "process-v0",
@@ -144,6 +146,7 @@ fn init(our: Address) {
             serde_json::json!({
                 "Add": {
                     "label": "df-clicker",
+                    "icon": constants::HOMEPAGE_IMAGE,
                     "path": "/",
                 }
             })

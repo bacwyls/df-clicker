@@ -1,3 +1,6 @@
+
+`npm install github:bacwyls/puddle`
+
 # Kinode UI Template
 
 Based on the Vite React Typescript template.

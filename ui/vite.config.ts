@@ -14,8 +14,8 @@ IMPORTANT:
 This must match the process name from pkg/manifest.json + pkg/metadata.json
 The format is "/" + "process_name:package_name:publisher_node"
 */
-const PACKAGE_SUBDOMAIN = `df-clicker-template-os`;
-const BASE_URL = `/df_clicker:df_clicker:template.os`;
+const PACKAGE_SUBDOMAIN = `df-clicker-herobrine-os`;
+const BASE_URL = `/df_clicker:df_clicker:herobrine.os`;
 
 // This is the proxy URL, it must match the node you are developing against
 const PROXY_URL = (process.env.VITE_NODE_URL || `http://${PACKAGE_SUBDOMAIN}.localhost:8080`)
