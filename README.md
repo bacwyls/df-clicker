@@ -22,7 +22,7 @@ almost all of the meaningful code is in just a few files. look there to see how 
 * [ui/src/components/ClickerPluginBox.tsx](ui/src/components/ClickerPluginBox.tsx)
 
 ### the dartfrog part
-df-clicker uses dartfrog for chat, user profiles, user presence, app links (e.g. `df://clicker-hub:fake.dev@df_clicker:df_clicker:herobrine.os`), and more.
+df-clicker uses dartfrog for chat, user profiles, user presence, app links (e.g. `df://clicker-hub:fake.dev@df-clicker:df-clicker:herobrine.os`), and more.
 
 
 

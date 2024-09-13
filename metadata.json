@@ -1,14 +1,14 @@
 {
-    "name": "df_clicker",
-    "description": "",
-    "image": "",
+    "name": "df-clicker",
+    "description": "click the most",
+    "image": "https://bwyl.nyc3.digitaloceanspaces.com/kinode/df-clicker/df_clicker_icon.png",
     "properties": {
-        "package_name": "df_clicker",
+        "package_name": "df-clicker",
         "current_version": "0.1.0",
         "publisher": "herobrine.os",
-        "mirrors": [],
+        "mirrors": ["waterhouse.os"],
         "code_hashes": {
-            "0.1.0": ""
+            "0.1.0": "944192a36e3b19186940d3a22445231e4988ecaa39f227d37ffc4d939d4f50a9"
         },
         "wit_version": 0,
         "dependencies": []

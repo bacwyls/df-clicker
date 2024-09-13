@@ -1,6 +1,6 @@
 // export const IS_FAKE = false;
 export const PACKAGE_SUBDOMAIN = "df-clicker-herobrine-os";
-export const PROCESS_NAME = "df_clicker:df_clicker:herobrine.os";
+export const PROCESS_NAME = "df-clicker:df-clicker:herobrine.os";
 
 export const BASE_URL = `/${PROCESS_NAME}/`;
 
