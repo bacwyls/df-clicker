@@ -13,10 +13,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dartfrog/puddle": "file:/Users/moth/repos/puddle",
+    "@dartfrog/puddle": "github:bacwyls/puddle",
     "@kinode/client-api": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.2",
     "zustand": "^4.4.7"
   },
   "devDependencies": {
